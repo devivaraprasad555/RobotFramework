@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20231102 10:27:37.814" rpa="false" schemaversion="4">
+<suite id="s1" name="Testdemo5" source="C:\Users\91938\PycharmProjects\robot\tests\Testdemo5.robot">
+<test id="s1-t1" name="close the Browser" line="28">
+<kw name="open the browser with the url" library="Generic" type="SETUP">
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<arg>Firefox</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<msg timestamp="20231102 10:27:38.174" level="INFO">Creating an instance of the Firefox WebDriver.</msg>
+<status status="PASS" starttime="20231102 10:27:38.172" endtime="20231102 10:27:45.757"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${url}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20231102 10:27:45.759" level="INFO">Opening url 'https://rahulshettyacademy.com/angularpractice/shop'</msg>
+<status status="PASS" starttime="20231102 10:27:45.758" endtime="20231102 10:27:47.404"/>
+</kw>
+<status status="PASS" starttime="20231102 10:27:38.172" endtime="20231102 10:27:47.404"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20231102 10:27:47.405" endtime="20231102 10:27:51.938"/>
+</kw>
+<kw name="close the Browser" library="Generic" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20231102 10:27:51.942" endtime="20231102 10:27:51.943"/>
+</kw>
+<status status="PASS" starttime="20231102 10:27:51.940" endtime="20231102 10:27:51.943"/>
+</kw>
+<status status="PASS" starttime="20231102 10:27:38.171" endtime="20231102 10:27:51.944"/>
+</test>
+<doc>validating the login page</doc>
+<status status="PASS" starttime="20231102 10:27:37.827" endtime="20231102 10:27:51.946"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Testdemo5">Testdemo5</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

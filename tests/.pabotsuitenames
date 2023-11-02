@@ -1,0 +1,6 @@
+datasources:c8023e2a83b37e254b01c9e9dd6261907e2e2dbe
+commandlineoptions:65f95c924ba97541f47949701c4e3c51192a5b43
+suitesfrom:no-suites-from-option
+file:863d42653a5ef47cd4a5f19674069bd41e6e5f1e
+--test Testdemo5.card titles checking in the shop page
+--test Testdemo5.close the Browser
